@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+#titulo h1 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#mensaje {
+  margin-top: 20px;
+}
+
+#mensajeText {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#mensajeImg {
+  margin-top: 20px;
+  width: 300px;
+  height: auto;
+}
+
+.ventana {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ventanaContenido {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.ventanaContenido button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
