@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viaje a Tarragona</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="titulo">
+    <h1>¡Nos vamos de vacaciones a Tarragona!</h1>
+    <div id="gps-buttons">
+      <button id="btn100" onclick="mostrarMensaje(100)">100 km</button>
+      <button id="btn50" onclick="mostrarMensaje(50)">50 km</button>
+      <button id="btn15" onclick="mostrarMensaje(15)">15 km</button>
+      <button id="btn0" onclick="mostrarMensaje(0)">Llegada</button>
+    </div>
+  </div>
+
+  <div id="mensaje">
+    <p id="mensajeText">¡Prepara tu viaje!</p>
+    <img id="mensajeImg" src="" alt="Imagen de viaje" style="display: none;">
+  </div>
+
+  <div id="llegadaVentana" class="ventana" style="display: none;">
+    <div class="ventanaContenido">
+      <h2>Llegamos! Vivan las vacaciones!</h2>
+      <img src="tarragona-final.jpg" alt="Llegada a Tarragona">
+      <button onclick="cerrarVentana()">X</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
